@@ -1,0 +1,125 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+  color: #343a40;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kanban-column {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 500px;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task-card p {
+  margin: 0;
+}
+
+.task-card span {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.task-card button {
+  margin-top: 5px;
+}
+
+input, select, button {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .kanban-column {
+    min-height: 300px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+/* Adjust React Flow Controls Position */
+
+.react-flow {
+  z-index: 0;
+}
+
+.kanban-board {
+  position: relative;
+  z-index: 1;
+}
+
+/* src/App.css */
+.calendar-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.calendar-container h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.calendar-container p {
+  font-size: 1em;
+  margin-top: 10px;
+  color: #6c757d;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+.react-calendar__tile {
+  background-color: #e9ecef;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #007bff;
+  color: white;
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background-color: #ffeb3b;
+  color: #000;
+  border-radius: 6px;
+}
