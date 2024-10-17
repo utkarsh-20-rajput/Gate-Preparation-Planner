@@ -15,4 +15,49 @@ The GATE Preparation Planner is a React-based web application designed to assist
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gate-planner.git
+   git clone https://github.com/utkarsh20rajput/Gate-Preparation-Planner.git
+
+2. Clone the repository:
+   ```bash
+   cd gate-planner
+   
+3. Install dependencies
+   ```bash
+   npm install
+
+4. Start the application
+   ```bash
+    npm start
+
+## Project Structure
+```plaintext
+gate-planner/
+│
+├── src/                   # Source files for the application
+│   ├── components/        # React components used across the application
+│   │   ├── CalendarComponent.js   # Manages calendar-related operations
+│   │   ├── DailySuggestion.js     # Provides daily study suggestions
+│   │   ├── KanbanBoard.js         # Implements the Kanban board
+│   │   ├── ScheduleTable.js       # Displays the schedule of studies
+│   │   └── WorkflowGraph.js       # Visualizes the workflow and progress
+│   ├── App.js             # Main React component that integrates all other components
+│   ├── index.js           # Entry point for the React application
+│   ├── index.css          # Base CSS for styling the application
+│   └── firebase.js        # Firebase configuration and service initialization
+│
+├── public/                # Contains static assets like HTML and icons
+│   └── index.html         # Main HTML file that hosts the React app
+│
+├── .gitignore             # Specifies intentionally untracked files to ignore
+├── package.json           # Manages project metadata and dependencies
+└── README.md              # Comprehensive project documentation
+```
+
+## Usage
+After installation, open your browser and go to http://localhost:3000 to start using the app. You can add, remove, and move tasks on the Kanban board, view the calendar, enter study plans into the schedule table, and view your overall progress in the workflow graph.
+
+## Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
