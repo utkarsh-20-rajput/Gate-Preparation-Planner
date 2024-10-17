@@ -16,3 +16,7 @@ The GATE Preparation Planner is a comprehensive tool designed to help GATE aspir
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/gate-planner.git
+
+2. Navigate to the project directory
+   ```bash
+   cd gate-planner
