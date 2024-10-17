@@ -15,7 +15,7 @@ The GATE Preparation Planner is a React-based web application designed to assist
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/utkarsh20rajput/Gate-Preparation-Planner.git
+   git clone https://github.com/utkarsh-20-rajput/Gate-Preparation-Planner.git
 
 2. Clone the repository:
    ```bash
