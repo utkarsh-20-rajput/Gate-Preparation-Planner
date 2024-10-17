@@ -29,7 +29,6 @@ The GATE Preparation Planner is a comprehensive tool designed to help GATE aspir
    ```bash
    npm start
 
-
 ## Project Structure
 
 Below is an outline of the project's directory structure, detailing the purpose of each directory and key files:
